@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.word-search {
+    margin: 0 auto;
+    font-size: 26px;
+    border: 1px solid black;
+}
+
+.word-search tr td {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    padding: .25em;
+    text-align: center;
+}
+
+.wordlist {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.word {
+    margin: 1em;
+    display: inline-block;
+}
+
+.word .silaba {
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.word .palabra {
+    margin-bottom: 1em;
+    letter-spacing: 2px;
+}
+
+.word span {
+    padding: .35em;
+    margin: 0 .1em;
+    border-radius: 5px;
+    background-color: beige;
+}

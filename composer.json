@@ -1,0 +1,18 @@
+{
+    "name": "ryvanyo/generador-de-crucigramas",
+    "type": "project",
+    "require": {
+        "xmeltrut/word-search": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryvanyo\\GeneradorDeCrucigramas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ryvanyo",
+            "email": "cyrus.rar@gmail.com"
+        }
+    ]
+}
